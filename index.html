@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <meta charset="UTF-8">
+  <title>| Portofolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <section class="banner" id="sec">
+    <header>
+      <a href="#" class="logo">My Portofolio</a>
+      <div id="toggle" onclick="toogle()"></div>
+      
+    </header>
+    
+    <div class="content">
+        <div class="profile-pic">
+            <img src="photo_profile.png" alt="Profile Photo">
+          </div>
+      <h2>I'm <span>Nazwan bani al fatah</span></h2>
+      <p>
+        I am a student from Dian Nuswantoro University, majoring in Computer Science, and I am highly interested in IT-related matters. Currently, I am particularly interested in cloud computing.
+      </p>
+    </div>
+    <ul class="sci">
+      
+      <li><a type="link" href="https://github.com/nazwan14"><img src="GitHub-Mark.png"></a></li>
+      <li><a type="link" href="www.linkedin.com/in/nazwan-fatah-6a9554294"><img
+            src="linkedin.png"></a></li>
+    </ul>
+  </section>
+  <div id="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Nazwan bani A.pdf">Portofolio</a></li>
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    function toogle() {
+      var sec = document.getElementById('sec');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+</body>
+
+</html>
