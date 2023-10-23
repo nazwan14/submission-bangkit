@@ -4,8 +4,8 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: www/index.html
-  upload: www/index.html
+  static_files: Submission/index.html
+  upload: Submission/index.html
 
 - url: /
-  static_dir: www
+  static_dir: Submission
